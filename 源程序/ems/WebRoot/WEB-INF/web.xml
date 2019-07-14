@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>UsersServlet</description>
+    <display-name>UsersServlet</display-name>
+    <servlet-name>UsersServlet</servlet-name>
+    <servlet-class>com.servlet.UsersServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UsersServlet</servlet-name>
+    <url-pattern>/servlet/UsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>EquipmentServlet</description>
+    <display-name>EquipmentServlet</display-name>
+    <servlet-name>EquipmentServlet</servlet-name>
+    <servlet-class>com.servlet.EquipmentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EquipmentServlet</servlet-name>
+    <url-pattern>/servlet/EquipmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>LoginServlet</description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>MaintainServlet</description>
+    <display-name>MaintainServlet</display-name>
+    <servlet-name>MaintainServlet</servlet-name>
+    <servlet-class>com.servlet.MaintainServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MaintainServlet</servlet-name>
+    <url-pattern>/servlet/MaintainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>PersonelServlet</description>
+    <display-name>PersonelServlet</display-name>
+    <servlet-name>PersonelServlet</servlet-name>
+    <servlet-class>com.servlet.PersonelServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PersonelServlet</servlet-name>
+    <url-pattern>/servlet/PersonelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>RejectServlet</description>
+    <display-name>RejectServlet</display-name>
+    <servlet-name>RejectServlet</servlet-name>
+    <servlet-class>com.servlet.RejectServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RejectServlet</servlet-name>
+    <url-pattern>/servlet/RejectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>SectionServlet</description>
+    <display-name>SectionServlet</display-name>
+    <servlet-name>SectionServlet</servlet-name>
+    <servlet-class>com.servlet.SectionServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SectionServlet</servlet-name>
+    <url-pattern>/servlet/SectionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>TypeServlet</description>
+    <display-name>TypeServlet</display-name>
+    <servlet-name>TypeServlet</servlet-name>
+    <servlet-class>com.servlet.TypeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TypeServlet</servlet-name>
+    <url-pattern>/servlet/TypeServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>pages/login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
