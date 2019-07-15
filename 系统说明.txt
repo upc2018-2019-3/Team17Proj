@@ -1,0 +1,1 @@
+本系统用Dreamweaver进行界面的开发，用SQL Server 2008进行数据库的创建，用MyEclipse以及Tomcat服务器环境下进行相关功能的实现。
